@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    padding: 8px;
+}
+.col-1{
+    display: flex;
+    align-items: center;
+    width: 74px;
+    height: 48px;
+    margin-left: 10px;
+}
+.col-1 > img {
+    width: 74px;
+}
+.col-2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+}
+.col-2 > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.col-2 > a:hover{
+    text-decoration: underline;
+}
+.demo-txt{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+.container{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.container > form {
+    width: 1140px;
+    height: 694px;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 42px;
+}
+.col-right{
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.con-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle
+}
+.main-content{
+    width: 100%;
+}
+.left-col{
+    width: 182px;
+}
+.mid-col{
+    display: flex;
+    flex-direction: row;
+    padding-right: 16px;
+
+}
+.jfk-textinput{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 570px;
+}
+.right-col{
+    font-size: 11px;
+    color: #555555;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.advanced-btn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn-advanced{
+    color: white;
+    background-color: #4d90fe;
+    border: .1px solid #1a72ff;
+    padding: 10px 12px;
+    border-radius: 3px;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 700;
+}
